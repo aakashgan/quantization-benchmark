@@ -1,0 +1,752 @@
+[
+    {
+        "precision": "fp16",
+        "question_id": 1,
+        "question": "What is the capital of France?",
+        "type": "exact_match",
+        "expected_answer": "Paris",
+        "response": "The capital of France is Paris.",
+        "elapsed_time": 1.1105248928070068,
+        "memory_used": 6425501000
+    },
+    {
+        "precision": "fp16",
+        "question_id": 2,
+        "question": "What is the capital of Japan?",
+        "type": "exact_match",
+        "expected_answer": "Tokyo",
+        "response": "The capital of Japan is Tokyo.",
+        "elapsed_time": 0.3566451072692871,
+        "memory_used": 6425501000
+    },
+    {
+        "precision": "fp16",
+        "question_id": 3,
+        "question": "Who wrote the play Romeo and Juliet?",
+        "type": "exact_match",
+        "expected_answer": "Shakespeare",
+        "response": "The play Romeo and Juliet was written by William Shakespeare. It is one of his most famous tragedies, and it tells the story of two young lovers from feuding families in Verona, Italy.",
+        "elapsed_time": 1.2184457778930664,
+        "memory_used": 6425501000
+    },
+    {
+        "precision": "fp16",
+        "question_id": 4,
+        "question": "What planet is known as the Red Planet?",
+        "type": "exact_match",
+        "expected_answer": "Mars",
+        "response": "Mars is commonly known as the Red Planet due to its reddish appearance, caused by iron oxide (or rust) in the planet's soil and rocks.",
+        "elapsed_time": 1.0329017639160156,
+        "memory_used": 6425501000
+    },
+    {
+        "precision": "fp16",
+        "question_id": 5,
+        "question": "In what year did World War II end?",
+        "type": "exact_match",
+        "expected_answer": "1945",
+        "response": "World War II ended in 1945. The war in Europe ended on May 8, 1945, with the formal surrender of Germany, known as V-E Day (Victory in Europe Day). The war in the Pacific ended on September 2, 1945, with the formal surrender of Japan, following the atomic bombings of Hiroshima and Nagasaki and the Soviet invasion of Manchuria.",
+        "elapsed_time": 2.4040770530700684,
+        "memory_used": 6425501000
+    },
+    {
+        "precision": "fp16",
+        "question_id": 6,
+        "question": "What is the chemical symbol for gold?",
+        "type": "exact_match",
+        "expected_answer": "Au",
+        "response": "The chemical symbol for gold is Au. It comes from the Latin word \"Aurum.\"",
+        "elapsed_time": 0.6582791805267334,
+        "memory_used": 6425501000
+    },
+    {
+        "precision": "fp16",
+        "question_id": 7,
+        "question": "What is 17 multiplied by 6?",
+        "type": "exact_match",
+        "expected_answer": "102",
+        "response": "17 \u00d7 6 = 102.",
+        "elapsed_time": 0.387178897857666,
+        "memory_used": 6425501000
+    },
+    {
+        "precision": "fp16",
+        "question_id": 8,
+        "question": "What is 144 divided by 12?",
+        "type": "exact_match",
+        "expected_answer": "12",
+        "response": "144 divided by 12 is 12.",
+        "elapsed_time": 0.4148280620574951,
+        "memory_used": 6425501000
+    },
+    {
+        "precision": "fp16",
+        "question_id": 9,
+        "question": "How many continents are there on Earth?",
+        "type": "exact_match",
+        "expected_answer": "7",
+        "response": "There are 7 continents on Earth:\n\n1. Africa\n2. Antarctica\n3. Asia\n4. Australia\n5. Europe\n6. North America\n7. South America",
+        "elapsed_time": 1.1669270992279053,
+        "memory_used": 6425501000
+    },
+    {
+        "precision": "fp16",
+        "question_id": 10,
+        "question": "What is the largest planet in our solar system?",
+        "type": "exact_match",
+        "expected_answer": "Jupiter",
+        "response": "The largest planet in our solar system is Jupiter. It is a gas giant, meaning it is primarily composed of hydrogen and helium gases. Jupiter is approximately 142,984 kilometers (88,846 miles) in diameter, which is more than 11 times the diameter of the Earth.",
+        "elapsed_time": 1.7349019050598145,
+        "memory_used": 6425501000
+    },
+    {
+        "precision": "fp16",
+        "question_id": 11,
+        "question": "How many degrees are in a right angle?",
+        "type": "exact_match",
+        "expected_answer": "90",
+        "response": "There are 90 degrees in a right angle.",
+        "elapsed_time": 0.4468269348144531,
+        "memory_used": 6425501000
+    },
+    {
+        "precision": "fp16",
+        "question_id": 12,
+        "question": "What is the boiling point of water in Celsius?",
+        "type": "exact_match",
+        "expected_answer": "100",
+        "response": "The boiling point of water is 100 degrees Celsius (\u00b0C) at standard atmospheric pressure.",
+        "elapsed_time": 0.6870901584625244,
+        "memory_used": 6425501000
+    },
+    {
+        "precision": "fp16",
+        "question_id": 13,
+        "question": "Who painted the Mona Lisa?",
+        "type": "exact_match",
+        "expected_answer": "da Vinci",
+        "response": "The Mona Lisa was painted by the renowned Italian artist Leonardo da Vinci. He created the painting in the early 16th century, specifically between 1503 and 1506, although some sources suggest that he continued to work on it until 1517. The Mona Lisa is considered one of the most famous paintings in the world and is widely regarded as a masterpiece of Renaissance art.",
+        "elapsed_time": 2.263854742050171,
+        "memory_used": 6425501000
+    },
+    {
+        "precision": "fp16",
+        "question_id": 14,
+        "question": "What is the square root of 81?",
+        "type": "exact_match",
+        "expected_answer": "9",
+        "response": "The square root of 81 is 9.",
+        "elapsed_time": 0.45802903175354004,
+        "memory_used": 6425501000
+    },
+    {
+        "precision": "fp16",
+        "question_id": 15,
+        "question": "What is the currency used in Japan?",
+        "type": "exact_match",
+        "expected_answer": "yen",
+        "response": "The official currency of Japan is the Japanese yen (JPY). It is denoted by the symbol \u00a5.",
+        "elapsed_time": 0.7741291522979736,
+        "memory_used": 6425501000
+    },
+    {
+        "precision": "fp16",
+        "question_id": 16,
+        "question": "Explain photosynthesis in 2 sentences.",
+        "type": "open_ended",
+        "expected_answer": null,
+        "response": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy from the sun into chemical energy in the form of glucose, releasing oxygen as a byproduct. This process occurs in specialized organelles called chloroplasts, which contain pigments such as chlorophyll that absorb light energy and facilitate the conversion of carbon dioxide and water into glucose and oxygen.",
+        "elapsed_time": 2.2802109718322754,
+        "memory_used": 6425501000
+    },
+    {
+        "precision": "fp16",
+        "question_id": 17,
+        "question": "A train leaves the station at 3pm traveling at 60mph. How far has it traveled by 5pm? Explain your reasoning.",
+        "type": "open_ended",
+        "expected_answer": null,
+        "response": "To find out how far the train has traveled by 5pm, we need to calculate the time it took for the train to travel from 3pm to 5pm.\n\nThe time elapsed is 2 hours.\n\nSince the train is traveling at 60mph, we can multiply the speed by the time elapsed to find the distance traveled:\n\nDistance = Speed x Time\nDistance = 60mph x 2 hours\nDistance = 120 miles\n\nSo, by 5pm, the train has traveled 120 miles.",
+        "elapsed_time": 3.0926036834716797,
+        "memory_used": 6425501000
+    },
+    {
+        "precision": "fp16",
+        "question_id": 18,
+        "question": "List 3 pros and 3 cons of remote work.",
+        "type": "open_ended",
+        "expected_answer": null,
+        "response": "Here are 3 pros and 3 cons of remote work:\n\nPros:\n\n1. **Flexibility and Autonomy**: Remote work allows employees to work from anywhere, at any time, as long as they have a stable internet connection. This flexibility can lead to increased productivity and job satisfaction.\n\n2. **Reduced Commuting Time and Expenses**: Without the need to commute to an office, remote workers can save time, money, and reduce their carbon footprint. This can also lead to a better work-life balance.\n\n3. **Access to Global Talent Pool**: Remote work allows companies to hire the best talent from all over the world, rather than being limited to a specific geographic area. This can lead to increased innovation and competitiveness.\n\nCons:\n\n1. **Social Isolation and Lack of Face-to-Face Interaction**: Remote work can lead to feelings of loneliness and isolation, as well as a lack of face-to-face interaction with colleagues and friends. This can negatively impact mental health and overall well-being.\n\n",
+        "elapsed_time": 5.654429197311401,
+        "memory_used": 6425501000
+    },
+    {
+        "precision": "fp16",
+        "question_id": 19,
+        "question": "Explain the difference between a stack and a queue in one paragraph.",
+        "type": "open_ended",
+        "expected_answer": null,
+        "response": "A stack and a queue are two fundamental data structures that differ in the order in which elements are added and removed. A stack is a Last-In-First-Out (LIFO) data structure, meaning the last element added to the stack is the first one to be removed. In contrast, a queue is a First-In-First-Out (FIFO) data structure, where elements are added to the end of the queue and removed from the front. This fundamental difference in ordering makes stacks suitable for tasks like parsing expressions or evaluating postfix notation, while queues are often used in job scheduling, print queues, and other scenarios where elements need to be processed in the order they were received.",
+        "elapsed_time": 3.91202712059021,
+        "memory_used": 6425501000
+    },
+    {
+        "precision": "fp16",
+        "question_id": 20,
+        "question": "If a recipe calls for 2 cups of flour to make 12 cookies, how much flour is needed for 30 cookies? Show your work.",
+        "type": "open_ended",
+        "expected_answer": null,
+        "response": "To find out how much flour is needed for 30 cookies, we need to set up a proportion. \n\nFirst, let's identify the ratio of flour to cookies in the original recipe:\n2 cups of flour / 12 cookies\n\nNow, we want to find out how much flour is needed for 30 cookies. We can set up a proportion:\n\n2 cups of flour / 12 cookies = x cups of flour / 30 cookies\n\nTo solve for x, we can cross-multiply:\n\n2 * 30 = 12 * x\n60 = 12x\n\nNow, divide both sides by 12:\n\nx = 60 / 12\nx = 5\n\nSo, 5 cups of flour are needed for 30 cookies.",
+        "elapsed_time": 4.328130006790161,
+        "memory_used": 6425501000
+    },
+    {
+        "precision": "fp16",
+        "question_id": 21,
+        "question": "Write a short, professional email declining a meeting invitation.",
+        "type": "open_ended",
+        "expected_answer": null,
+        "response": "Here is a short, professional email declining a meeting invitation:\n\nSubject: Declining Meeting Invitation\n\nDear [Name],\n\nThank you for inviting me to a meeting on [Date and Time] to discuss [Topic]. I appreciate the opportunity to engage in this conversation, but unfortunately, I will not be able to attend.\n\nPlease let me know if there are any alternative arrangements or if there is any additional information I can provide to support our discussion.\n\nBest regards,\n[Your Name]",
+        "elapsed_time": 2.76619029045105,
+        "memory_used": 6425501000
+    },
+    {
+        "precision": "fp16",
+        "question_id": 22,
+        "question": "Summarize the plot of a story about a hero's journey in 3 sentences.",
+        "type": "open_ended",
+        "expected_answer": null,
+        "response": "Here is a summary of a hero's journey in 3 sentences:\n\nIn a world where magic has been lost, a young apprentice named Eira embarks on a perilous quest to reclaim the ancient spellbook that holds the key to restoring magic to her kingdom. Along the way, she faces numerous challenges and trials that test her courage, wit, and determination, as she is guided by a wise mentor and encounters a cast of characters who aid or hinder her progress. Ultimately, Eira must confront the dark forces that have sought to exploit the power of magic for their own gain, and make a choice that will determine the fate of her kingdom and the future of magic itself.",
+        "elapsed_time": 3.8848860263824463,
+        "memory_used": 6425501000
+    },
+    {
+        "precision": "fp16",
+        "question_id": 23,
+        "question": "Explain why the sky is blue in simple terms.",
+        "type": "open_ended",
+        "expected_answer": null,
+        "response": "The sky appears blue because of a thing called light scattering. Here's how it works:\n\n1. The sun emits all kinds of colors, like a big ol' rainbow.\n2. When these colors travel through the air, they bounce off tiny particles like molecules and dust.\n3. The shorter, blue wavelengths are scattered more than the longer, red wavelengths.\n4. This means that when we look up at the sky, we see mostly the blue light that's been scattered in all directions.\n5. That's why the sky looks blue to our eyes!\n\nThink of it like this: Imagine you're at a big party with lots of people. The blue people are the ones who are bouncing around and having fun, while the red people are just standing still. That's kind of like what's happening with light in the sky!\n\nSo, that's why the sky is blue!",
+        "elapsed_time": 4.9992711544036865,
+        "memory_used": 6425501000
+    },
+    {
+        "precision": "fp16",
+        "question_id": 24,
+        "question": "What are the main differences between a virus and a bacteria? Answer in 2-3 sentences.",
+        "type": "open_ended",
+        "expected_answer": null,
+        "response": "The main differences between a virus and a bacteria are that viruses are tiny particles that require a host cell to replicate, whereas bacteria are single-celled organisms that can reproduce independently. Viruses also lack cellular structures and cannot carry out metabolic processes on their own, relying on the host cell's machinery to replicate. This fundamental difference in structure and function sets them apart from each other.",
+        "elapsed_time": 2.22123384475708,
+        "memory_used": 6425501000
+    },
+    {
+        "precision": "fp16",
+        "question_id": 25,
+        "question": "Describe one advantage and one disadvantage of quantizing a machine learning model.",
+        "type": "open_ended",
+        "expected_answer": null,
+        "response": "**Advantage:**\n\nOne advantage of quantizing a machine learning model is **memory and computational efficiency**. By representing model weights and activations as integers or fixed-point numbers, quantization reduces the memory requirements and computational complexity of the model. This can lead to significant reductions in memory usage, which is particularly important for deployment on resource-constrained devices such as edge devices, mobile devices, or embedded systems.\n\n**Disadvantage:**\n\nOne disadvantage of quantizing a machine learning model is **loss of precision and accuracy**. Quantization can lead to a loss of precision in the model's predictions, as the reduced bit depth can result in rounding errors and loss of information. This can be particularly problematic for models that require high accuracy, such as those used in medical imaging or financial applications. Additionally, the choice of quantization scheme and the trade-off between memory efficiency and accuracy can be challenging to optimize, requiring careful experimentation and tuning.",
+        "elapsed_time": 5.27827000617981,
+        "memory_used": 6425501000
+    },
+    {
+        "precision": "int8",
+        "question_id": 1,
+        "question": "What is the capital of France?",
+        "type": "exact_match",
+        "expected_answer": "Paris",
+        "response": "The capital of France is Paris.",
+        "elapsed_time": 1.5334131717681885,
+        "memory_used": 3413728584
+    },
+    {
+        "precision": "int8",
+        "question_id": 2,
+        "question": "What is the capital of Japan?",
+        "type": "exact_match",
+        "expected_answer": "Tokyo",
+        "response": "The capital of Japan is Tokyo.",
+        "elapsed_time": 0.2581791877746582,
+        "memory_used": 3413728584
+    },
+    {
+        "precision": "int8",
+        "question_id": 3,
+        "question": "Who wrote the play Romeo and Juliet?",
+        "type": "exact_match",
+        "expected_answer": "Shakespeare",
+        "response": "The play Romeo and Juliet was written by William Shakespeare. It is one of his most famous tragedies, and it tells the story of two young lovers from feuding families in Verona, Italy.",
+        "elapsed_time": 0.7320947647094727,
+        "memory_used": 3413728584
+    },
+    {
+        "precision": "int8",
+        "question_id": 4,
+        "question": "What planet is known as the Red Planet?",
+        "type": "exact_match",
+        "expected_answer": "Mars",
+        "response": "Mars is commonly known as the Red Planet due to its reddish appearance, caused by iron oxide (or rust) in the planet's soil and rocks.",
+        "elapsed_time": 0.6446261405944824,
+        "memory_used": 3413728584
+    },
+    {
+        "precision": "int8",
+        "question_id": 5,
+        "question": "In what year did World War II end?",
+        "type": "exact_match",
+        "expected_answer": "1945",
+        "response": "World War II officially ended in 1945. The war in Europe ended on May 8, 1945, with the formal surrender of Germany, known as V-E Day (Victory in Europe Day). The war in the Pacific ended on September 2, 1945, with the formal surrender of Japan, following the atomic bombings of Hiroshima and Nagasaki and the Soviet invasion of Manchuria.",
+        "elapsed_time": 1.3995699882507324,
+        "memory_used": 3413728584
+    },
+    {
+        "precision": "int8",
+        "question_id": 6,
+        "question": "What is the chemical symbol for gold?",
+        "type": "exact_match",
+        "expected_answer": "Au",
+        "response": "The chemical symbol for gold is Au. It comes from the Latin word \"Aurum.\"",
+        "elapsed_time": 0.4180729389190674,
+        "memory_used": 3413728584
+    },
+    {
+        "precision": "int8",
+        "question_id": 7,
+        "question": "What is 17 multiplied by 6?",
+        "type": "exact_match",
+        "expected_answer": "102",
+        "response": "17 \u00d7 6 = 102.",
+        "elapsed_time": 0.2703068256378174,
+        "memory_used": 3413728584
+    },
+    {
+        "precision": "int8",
+        "question_id": 8,
+        "question": "What is 144 divided by 12?",
+        "type": "exact_match",
+        "expected_answer": "12",
+        "response": "144 divided by 12 is 12.",
+        "elapsed_time": 0.28539109230041504,
+        "memory_used": 3413728584
+    },
+    {
+        "precision": "int8",
+        "question_id": 9,
+        "question": "How many continents are there on Earth?",
+        "type": "exact_match",
+        "expected_answer": "7",
+        "response": "There are 7 continents on Earth:\n\n1. Africa\n2. Antarctica\n3. Asia\n4. Australia\n5. Europe\n6. North America\n7. South America",
+        "elapsed_time": 0.7037951946258545,
+        "memory_used": 3413728584
+    },
+    {
+        "precision": "int8",
+        "question_id": 10,
+        "question": "What is the largest planet in our solar system?",
+        "type": "exact_match",
+        "expected_answer": "Jupiter",
+        "response": "The largest planet in our solar system is Jupiter. It is a gas giant, meaning it is primarily composed of hydrogen and helium gases. Jupiter is approximately 1,421 times the size of Earth in terms of volume and has a diameter of about 142,984 kilometers (88,846 miles).",
+        "elapsed_time": 1.0527560710906982,
+        "memory_used": 3413728584
+    },
+    {
+        "precision": "int8",
+        "question_id": 11,
+        "question": "How many degrees are in a right angle?",
+        "type": "exact_match",
+        "expected_answer": "90",
+        "response": "There are 90 degrees in a right angle.",
+        "elapsed_time": 0.3092837333679199,
+        "memory_used": 3413728584
+    },
+    {
+        "precision": "int8",
+        "question_id": 12,
+        "question": "What is the boiling point of water in Celsius?",
+        "type": "exact_match",
+        "expected_answer": "100",
+        "response": "The boiling point of water is 100 degrees Celsius (\u00b0C) at standard atmospheric pressure.",
+        "elapsed_time": 0.4352412223815918,
+        "memory_used": 3413728584
+    },
+    {
+        "precision": "int8",
+        "question_id": 13,
+        "question": "Who painted the Mona Lisa?",
+        "type": "exact_match",
+        "expected_answer": "da Vinci",
+        "response": "The Mona Lisa was painted by the Italian artist Leonardo da Vinci.",
+        "elapsed_time": 0.34346795082092285,
+        "memory_used": 3413728584
+    },
+    {
+        "precision": "int8",
+        "question_id": 14,
+        "question": "What is the square root of 81?",
+        "type": "exact_match",
+        "expected_answer": "9",
+        "response": "The square root of 81 is 9.",
+        "elapsed_time": 0.29707884788513184,
+        "memory_used": 3413728584
+    },
+    {
+        "precision": "int8",
+        "question_id": 15,
+        "question": "What is the currency used in Japan?",
+        "type": "exact_match",
+        "expected_answer": "yen",
+        "response": "The official currency of Japan is the Japanese yen (JPY).",
+        "elapsed_time": 0.34482407569885254,
+        "memory_used": 3413728584
+    },
+    {
+        "precision": "int8",
+        "question_id": 16,
+        "question": "Explain photosynthesis in 2 sentences.",
+        "type": "open_ended",
+        "expected_answer": null,
+        "response": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy from the sun into chemical energy in the form of glucose, releasing oxygen as a byproduct. This process occurs in specialized organelles called chloroplasts, which contain pigments such as chlorophyll that absorb light energy and facilitate the conversion of carbon dioxide and water into glucose and oxygen.",
+        "elapsed_time": 1.2785420417785645,
+        "memory_used": 3413728584
+    },
+    {
+        "precision": "int8",
+        "question_id": 17,
+        "question": "A train leaves the station at 3pm traveling at 60mph. How far has it traveled by 5pm? Explain your reasoning.",
+        "type": "open_ended",
+        "expected_answer": null,
+        "response": "To find the distance traveled by the train, we need to calculate the time it traveled and multiply it by its speed.\n\nThe train left the station at 3 pm and traveled until 5 pm. So, the time it traveled is 2 hours.\n\nNow, we multiply the time (2 hours) by the speed (60 mph):\n\nDistance = Speed x Time\nDistance = 60 mph x 2 hours\nDistance = 120 miles\n\nTherefore, by 5 pm, the train has traveled 120 miles.",
+        "elapsed_time": 1.7123446464538574,
+        "memory_used": 3413728584
+    },
+    {
+        "precision": "int8",
+        "question_id": 18,
+        "question": "List 3 pros and 3 cons of remote work.",
+        "type": "open_ended",
+        "expected_answer": null,
+        "response": "Here are 3 pros and 3 cons of remote work:\n\nPros:\n\n1. **Flexibility and Autonomy**: Remote work allows employees to work from anywhere, at any time, as long as they have a stable internet connection. This flexibility can lead to increased productivity and job satisfaction.\n\n2. **Reduced Commuting Time and Expenses**: Telecommuting eliminates the need for daily commutes, saving time, money, and reducing stress. This can also lead to a better work-life balance.\n\n3. **Broader Talent Pool**: By allowing remote work, companies can hire the best talent from all over the world, rather than being limited to a specific geographic area. This can lead to increased innovation and diversity in the workplace.\n\nCons:\n\n1. **Social Isolation and Lack of Face-to-Face Interaction**: Remote work can lead to feelings of loneliness and disconnection from colleagues and friends. This can negatively impact mental health and overall job satisfaction.\n\n2. **Difficulty in Separating Work and",
+        "elapsed_time": 3.1305999755859375,
+        "memory_used": 3413728584
+    },
+    {
+        "precision": "int8",
+        "question_id": 19,
+        "question": "Explain the difference between a stack and a queue in one paragraph.",
+        "type": "open_ended",
+        "expected_answer": null,
+        "response": "A stack and a queue are two fundamental data structures that differ in the order in which elements are added and removed. A stack follows the Last-In-First-Out (LIFO) principle, meaning the last element added to the stack is the first one to be removed. In contrast, a queue follows the First-In-First-Out (FIFO) principle, where the first element added to the queue is the first one to be removed. This fundamental difference in ordering makes stacks suitable for tasks like parsing expressions or evaluating postfix notation, while queues are often used in job scheduling, print queues, or network protocols where elements need to be processed in the order they were received.",
+        "elapsed_time": 2.2555582523345947,
+        "memory_used": 3413728584
+    },
+    {
+        "precision": "int8",
+        "question_id": 20,
+        "question": "If a recipe calls for 2 cups of flour to make 12 cookies, how much flour is needed for 30 cookies? Show your work.",
+        "type": "open_ended",
+        "expected_answer": null,
+        "response": "To find out how much flour is needed for 30 cookies, we need to set up a proportion. \n\nFirst, let's identify the ratio of flour to cookies in the original recipe:\n2 cups of flour / 12 cookies\n\nNow, we want to find out how much flour is needed for 30 cookies. We can set up a proportion:\n\n2 cups of flour / 12 cookies = x cups of flour / 30 cookies\n\nTo solve for x, we can cross-multiply:\n\n2 * 30 = 12 * x\n60 = 12x\n\nNow, divide both sides by 12:\n\nx = 60 / 12\nx = 5\n\nSo, 5 cups of flour are needed to make 30 cookies.",
+        "elapsed_time": 2.4451117515563965,
+        "memory_used": 3413728584
+    },
+    {
+        "precision": "int8",
+        "question_id": 21,
+        "question": "Write a short, professional email declining a meeting invitation.",
+        "type": "open_ended",
+        "expected_answer": null,
+        "response": "Here is a short, professional email declining a meeting invitation:\n\nSubject: Declining Meeting Invitation\n\nDear [Name],\n\nThank you for inviting me to a meeting on [Date and Time]. I appreciate the opportunity to discuss [Topic].\n\nUnfortunately, I will not be able to attend the meeting at this time. I have a conflicting commitment and will need to reschedule for a later date.\n\nPlease let me know if there are any alternative dates or times available, and I will do my best to accommodate them.\n\nThank you again for your understanding.\n\nBest regards,\n[Your Name]",
+        "elapsed_time": 1.8779377937316895,
+        "memory_used": 3413728584
+    },
+    {
+        "precision": "int8",
+        "question_id": 22,
+        "question": "Summarize the plot of a story about a hero's journey in 3 sentences.",
+        "type": "open_ended",
+        "expected_answer": null,
+        "response": "Here is a summary of a hero's journey in 3 sentences:\n\nIn a world where magic has been lost, a young apprentice named Eira discovers she is the chosen one destined to restore the ancient arts. Guided by a wise mentor and aided by a loyal companion, Eira embarks on a perilous quest to defeat the dark sorcerer who has stolen the magical crystal, the source of all power. Along the way, Eira faces numerous challenges and trials, ultimately emerging transformed and empowered to reclaim her rightful place as a hero and restore balance to the world.",
+        "elapsed_time": 1.8925518989562988,
+        "memory_used": 3413728584
+    },
+    {
+        "precision": "int8",
+        "question_id": 23,
+        "question": "Explain why the sky is blue in simple terms.",
+        "type": "open_ended",
+        "expected_answer": null,
+        "response": "The sky appears blue because of a thing called light scattering. Here's how it works:\n\n1. The sun emits all kinds of colors, like a big ol' rainbow.\n2. When these colors travel through the air, they bounce off tiny particles like molecules and dust.\n3. The shorter, blue wavelengths are scattered more than the longer, red wavelengths.\n4. This means that when we look up at the sky, we see mostly the blue light that's been scattered in all directions.\n5. That's why the sky looks blue to our eyes!\n\nThink of it like this: Imagine you're at a big party with lots of people. The blue people are the ones who are bouncing around and having fun, while the red people are just standing still. That's kind of like what's happening with light in the sky!\n\nSo, that's why the sky is blue!",
+        "elapsed_time": 2.924118757247925,
+        "memory_used": 3413728584
+    },
+    {
+        "precision": "int8",
+        "question_id": 24,
+        "question": "What are the main differences between a virus and a bacteria? Answer in 2-3 sentences.",
+        "type": "open_ended",
+        "expected_answer": null,
+        "response": "The main differences between a virus and a bacteria are that viruses are tiny, non-cellular particles that require a host cell to replicate, while bacteria are single-celled organisms with their own cellular structure. Viruses also lack the ability to move on their own and rely on the host cell's machinery to replicate, whereas bacteria can move and maintain their own cellular functions.",
+        "elapsed_time": 1.2544069290161133,
+        "memory_used": 3413728584
+    },
+    {
+        "precision": "int8",
+        "question_id": 25,
+        "question": "Describe one advantage and one disadvantage of quantizing a machine learning model.",
+        "type": "open_ended",
+        "expected_answer": null,
+        "response": "**Advantage:**\n\nOne advantage of quantizing a machine learning model is **Reduced Memory and Computational Requirements**. By representing model weights and activations as integers or fixed-point numbers, quantization can significantly reduce the memory footprint and computational requirements of the model. This can lead to faster inference times, lower power consumption, and improved performance on resource-constrained devices.\n\n**Disadvantage:**\n\nOne disadvantage of quantizing a machine learning model is **Loss of Precision and Accuracy**. Quantization can lead to a loss of precision and accuracy in the model's predictions, particularly when dealing with high-precision or high-accuracy applications. This is because the reduced bit depth and precision of the quantized weights and activations can result in rounding errors and loss of information, which can negatively impact the model's performance.",
+        "elapsed_time": 2.551706075668335,
+        "memory_used": 3413728584
+    },
+    {
+        "precision": "int4",
+        "question_id": 1,
+        "question": "What is the capital of France?",
+        "type": "exact_match",
+        "expected_answer": "Paris",
+        "response": "The capital of France is Paris.",
+        "elapsed_time": 0.2800741195678711,
+        "memory_used": 1807441224
+    },
+    {
+        "precision": "int4",
+        "question_id": 2,
+        "question": "What is the capital of Japan?",
+        "type": "exact_match",
+        "expected_answer": "Tokyo",
+        "response": "The capital of Japan is Tokyo.",
+        "elapsed_time": 0.1963200569152832,
+        "memory_used": 1807441224
+    },
+    {
+        "precision": "int4",
+        "question_id": 3,
+        "question": "Who wrote the play Romeo and Juliet?",
+        "type": "exact_match",
+        "expected_answer": "Shakespeare",
+        "response": "The play \"Romeo and Juliet\" was written by William Shakespeare. It is one of his most famous tragedies and is believed to have been written around 1595-1596.",
+        "elapsed_time": 0.4579927921295166,
+        "memory_used": 1807441224
+    },
+    {
+        "precision": "int4",
+        "question_id": 4,
+        "question": "What planet is known as the Red Planet?",
+        "type": "exact_match",
+        "expected_answer": "Mars",
+        "response": "Mars is commonly known as the Red Planet due to its reddish appearance, caused by iron oxide (or rust) in the planet's soil and rocks.",
+        "elapsed_time": 0.4201369285583496,
+        "memory_used": 1807441224
+    },
+    {
+        "precision": "int4",
+        "question_id": 5,
+        "question": "In what year did World War II end?",
+        "type": "exact_match",
+        "expected_answer": "1945",
+        "response": "World War II ended in 1945. The war in Europe ended on May 8, 1945, known as V-E Day (Victory in Europe Day), and the war in the Pacific ended on September 2, 1945, with the formal surrender of Japan, marking V-J Day (Victory over Japan Day).",
+        "elapsed_time": 0.726632833480835,
+        "memory_used": 1807441224
+    },
+    {
+        "precision": "int4",
+        "question_id": 6,
+        "question": "What is the chemical symbol for gold?",
+        "type": "exact_match",
+        "expected_answer": "Au",
+        "response": "The chemical symbol for gold is Au. It comes from the Latin word \"Aurum.\"",
+        "elapsed_time": 0.30458879470825195,
+        "memory_used": 1807441224
+    },
+    {
+        "precision": "int4",
+        "question_id": 7,
+        "question": "What is 17 multiplied by 6?",
+        "type": "exact_match",
+        "expected_answer": "102",
+        "response": "17 multiplied by 6 is 102.",
+        "elapsed_time": 0.21308612823486328,
+        "memory_used": 1807441224
+    },
+    {
+        "precision": "int4",
+        "question_id": 8,
+        "question": "What is 144 divided by 12?",
+        "type": "exact_match",
+        "expected_answer": "12",
+        "response": "144 divided by 12 is 12.",
+        "elapsed_time": 0.21165013313293457,
+        "memory_used": 1807441224
+    },
+    {
+        "precision": "int4",
+        "question_id": 9,
+        "question": "How many continents are there on Earth?",
+        "type": "exact_match",
+        "expected_answer": "7",
+        "response": "There are 7 continents on Earth:\n\n1. Africa\n2. Antarctica\n3. Asia\n4. Australia (also known as Oceania)\n5. Europe\n6. North America\n7. South America",
+        "elapsed_time": 0.5068237781524658,
+        "memory_used": 1807441224
+    },
+    {
+        "precision": "int4",
+        "question_id": 10,
+        "question": "What is the largest planet in our solar system?",
+        "type": "exact_match",
+        "expected_answer": "Jupiter",
+        "response": "The largest planet in our solar system is Jupiter. It is a gas giant, meaning it is primarily composed of hydrogen and helium gases. Jupiter has a diameter of approximately 142,984 kilometers (88,846 miles), which is more than 11 times the diameter of Earth.",
+        "elapsed_time": 0.6255409717559814,
+        "memory_used": 1807441224
+    },
+    {
+        "precision": "int4",
+        "question_id": 11,
+        "question": "How many degrees are in a right angle?",
+        "type": "exact_match",
+        "expected_answer": "90",
+        "response": "There are 90 degrees in a right angle.",
+        "elapsed_time": 0.23685908317565918,
+        "memory_used": 1807441224
+    },
+    {
+        "precision": "int4",
+        "question_id": 12,
+        "question": "What is the boiling point of water in Celsius?",
+        "type": "exact_match",
+        "expected_answer": "100",
+        "response": "The boiling point of water is 100 degrees Celsius (\u00b0C) at standard atmospheric pressure.",
+        "elapsed_time": 0.29587507247924805,
+        "memory_used": 1807441224
+    },
+    {
+        "precision": "int4",
+        "question_id": 13,
+        "question": "Who painted the Mona Lisa?",
+        "type": "exact_match",
+        "expected_answer": "da Vinci",
+        "response": "The Mona Lisa was painted by the renowned Italian artist Leonardo da Vinci.",
+        "elapsed_time": 0.2543199062347412,
+        "memory_used": 1807441224
+    },
+    {
+        "precision": "int4",
+        "question_id": 14,
+        "question": "What is the square root of 81?",
+        "type": "exact_match",
+        "expected_answer": "9",
+        "response": "The square root of 81 is 9.",
+        "elapsed_time": 0.22078800201416016,
+        "memory_used": 1807441224
+    },
+    {
+        "precision": "int4",
+        "question_id": 15,
+        "question": "What is the currency used in Japan?",
+        "type": "exact_match",
+        "expected_answer": "yen",
+        "response": "The currency used in Japan is the Japanese yen (JPY). It is represented by the symbol \u00a5.",
+        "elapsed_time": 0.32088398933410645,
+        "memory_used": 1807441224
+    },
+    {
+        "precision": "int4",
+        "question_id": 16,
+        "question": "Explain photosynthesis in 2 sentences.",
+        "type": "open_ended",
+        "expected_answer": null,
+        "response": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy from the sun into chemical energy in the form of glucose, releasing oxygen as a byproduct. This process occurs in specialized organelles called chloroplasts, where light is absorbed by pigments such as chlorophyll, which then drives the conversion of carbon dioxide and water into glucose and oxygen.",
+        "elapsed_time": 0.7988619804382324,
+        "memory_used": 1807441224
+    },
+    {
+        "precision": "int4",
+        "question_id": 17,
+        "question": "A train leaves the station at 3pm traveling at 60mph. How far has it traveled by 5pm? Explain your reasoning.",
+        "type": "open_ended",
+        "expected_answer": null,
+        "response": "To find the distance traveled by the train, we need to calculate the time it took to travel from 3pm to 5pm.\n\nThe time difference is 2 hours (5pm - 3pm).\n\nSince the train is traveling at 60mph, we can multiply the speed by the time to get the distance:\n\nDistance = Speed x Time\n= 60mph x 2 hours\n= 120 miles\n\nSo, by 5pm, the train has traveled 120 miles.",
+        "elapsed_time": 1.0001170635223389,
+        "memory_used": 1807441224
+    },
+    {
+        "precision": "int4",
+        "question_id": 18,
+        "question": "List 3 pros and 3 cons of remote work.",
+        "type": "open_ended",
+        "expected_answer": null,
+        "response": "Here are 3 pros and 3 cons of remote work:\n\nPros:\n\n1. **Increased flexibility and work-life balance**: Remote work allows employees to work from anywhere, at any time, as long as they have a stable internet connection. This flexibility can lead to better work-life balance, reduced commuting time, and increased productivity.\n\n2. **Reduced commuting time and expenses**: Telecommuting eliminates the need for daily commutes, saving time, money, and reducing stress. This can be especially beneficial for those living in areas with heavy traffic or long commutes.\n\n3. **Improved job satisfaction and reduced turnover**: Many employees report higher job satisfaction and reduced turnover rates when working remotely. This is because remote work provides more autonomy, flexibility, and control over work schedules, leading to increased job satisfaction and reduced turnover.\n\nCons:\n\n1. **Social isolation and lack of face-to-face interaction**: Remote work can lead to feelings of isolation and disconnection from colleagues and friends. This can negatively impact mental",
+        "elapsed_time": 1.8255829811096191,
+        "memory_used": 1807441224
+    },
+    {
+        "precision": "int4",
+        "question_id": 19,
+        "question": "Explain the difference between a stack and a queue in one paragraph.",
+        "type": "open_ended",
+        "expected_answer": null,
+        "response": "A stack and a queue are two fundamental data structures that differ in their order of operations and usage. A stack is a Last-In-First-Out (LIFO) data structure, meaning the last element added is the first one to be removed. It follows the principle of \"last in, first out,\" making it suitable for applications like parsing expressions, evaluating postfix notation, and implementing recursive algorithms. On the other hand, a queue is a First-In-First-Out (FIFO) data structure, where elements are added at the end and removed from the front. This makes it ideal for scenarios like job scheduling, print queues, and network protocols, where elements need to be processed in the order they were received.",
+        "elapsed_time": 1.3624250888824463,
+        "memory_used": 1807441224
+    },
+    {
+        "precision": "int4",
+        "question_id": 20,
+        "question": "If a recipe calls for 2 cups of flour to make 12 cookies, how much flour is needed for 30 cookies? Show your work.",
+        "type": "open_ended",
+        "expected_answer": null,
+        "response": "To find out how much flour is needed for 30 cookies, we need to set up a proportion. \n\nLet's start by identifying the ratio of cookies to flour in the original recipe:\n\n12 cookies / 2 cups of flour = 1 cookie / 1/2 cup of flour\n\nNow, we want to find out how much flour is needed for 30 cookies. We can set up a proportion to solve for the amount of flour:\n\n30 cookies / x cups of flour = 12 cookies / 2 cups of flour\n\nTo solve for x, we can cross-multiply:\n\n30 * 2 = 12 * x\n60 = 12x\nx = 60 / 12\nx = 5\n\nSo, 5 cups of flour are needed to make 30 cookies.",
+        "elapsed_time": 1.5246529579162598,
+        "memory_used": 1807441224
+    },
+    {
+        "precision": "int4",
+        "question_id": 21,
+        "question": "Write a short, professional email declining a meeting invitation.",
+        "type": "open_ended",
+        "expected_answer": null,
+        "response": "Here is a short, professional email declining a meeting invitation:\n\nSubject: Declining Meeting Invitation\n\nDear [Name],\n\nThank you for inviting me to a meeting on [Date and Time]. I appreciate the opportunity to discuss [Topic].\n\nUnfortunately, I will not be able to attend the meeting as previously planned. I have a conflicting commitment and will need to reschedule for a later date.\n\nPlease let me know if there are any alternative dates or times that work for you, and I will do my best to accommodate your schedule.\n\nThank you again for your understanding, and I look forward to hearing from you soon.\n\nBest regards,\n[Your Name]",
+        "elapsed_time": 1.2776679992675781,
+        "memory_used": 1807441224
+    },
+    {
+        "precision": "int4",
+        "question_id": 22,
+        "question": "Summarize the plot of a story about a hero's journey in 3 sentences.",
+        "type": "open_ended",
+        "expected_answer": null,
+        "response": "In the epic tale of \"The Unyielding Quest,\" a young orphan named Eira discovers she is the chosen one, destined to save her kingdom from an ancient evil that threatens to destroy everything she holds dear. Guided by a wise mentor and fueled by her own inner strength, Eira embarks on a perilous journey to unite the warring factions and gather the ancient artifacts needed to defeat the darkness. Along the way, she faces formidable challenges, forges unbreakable bonds, and uncovers the secrets of her own mysterious past.",
+        "elapsed_time": 1.09694504737854,
+        "memory_used": 1807441224
+    },
+    {
+        "precision": "int4",
+        "question_id": 23,
+        "question": "Explain why the sky is blue in simple terms.",
+        "type": "open_ended",
+        "expected_answer": null,
+        "response": "The sky appears blue because of a thing called light scattering. Here's what happens:\n\n1. Sunlight enters Earth's atmosphere and hits tiny molecules of gases like nitrogen and oxygen.\n2. These molecules scatter the light in all directions, but they scatter shorter (blue) wavelengths more than longer (red) wavelengths.\n3. Our eyes see the scattered blue light as the blue color of the sky.\n4. The reason we don't see the red light is that it's scattered less, so it's not as visible to us.\n\nThink of it like this: Imagine you're at a beach on a sunny day. The water looks blue, right? That's because the sunlight is being scattered by the tiny particles in the water. It's the same thing happening in the sky, but with the atmosphere instead of the water.\n\nSo, that's why the sky is blue!",
+        "elapsed_time": 1.6441421508789062,
+        "memory_used": 1807441224
+    },
+    {
+        "precision": "int4",
+        "question_id": 24,
+        "question": "What are the main differences between a virus and a bacteria? Answer in 2-3 sentences.",
+        "type": "open_ended",
+        "expected_answer": null,
+        "response": "The main differences between a virus and a bacteria are that viruses are small, non-cellular particles that require a host cell to replicate, while bacteria are single-celled organisms with a defined structure and function. Viruses also cannot reproduce on their own and need a host cell's machinery to replicate their genetic material.",
+        "elapsed_time": 0.689892053604126,
+        "memory_used": 1807441224
+    },
+    {
+        "precision": "int4",
+        "question_id": 25,
+        "question": "Describe one advantage and one disadvantage of quantizing a machine learning model.",
+        "type": "open_ended",
+        "expected_answer": null,
+        "response": "**Advantage:**\n\nOne advantage of quantizing a machine learning model is that it can significantly reduce the memory and computational requirements of the model, making it more efficient and suitable for deployment on resource-constrained devices such as edge devices, IoT devices, or mobile devices. By reducing the precision of the model's weights and activations from 32-bit floating-point numbers to 8-bit or 16-bit integers, the model can be made more compact and energy-efficient.\n\n**Disadvantage:**\n\nOne disadvantage of quantizing a machine learning model is that it can lead to a loss of accuracy. The process of quantization involves rounding the model's weights and activations to a lower precision, which can result in a loss of precision and accuracy. This is because the rounding process can introduce errors and distortions in the model's behavior, leading to a decrease in its performance. In particular, quantization can lead to a loss of accuracy in models that rely heavily on floating-point operations, such as neural networks",
+        "elapsed_time": 1.8314158916473389,
+        "memory_used": 1807441224
+    }
+]

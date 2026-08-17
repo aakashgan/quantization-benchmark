@@ -8,3 +8,8 @@ __pycache__/
 
 # Virtual environment
 venv/
+
+# model files
+llama-fp16/
+llama-int8/
+llama-int4/

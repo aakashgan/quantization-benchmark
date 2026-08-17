@@ -1,56 +1,43 @@
-from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
-import torch
+from mlx_lm import load, generate, convert
+import mlx.core as mx
 import time
+import psutil
 
-
-MODEL_NAME = "meta-llama/Llama-3.2-3B-Instruct"
 
 def load_model(precision):
-    if precision == "fp16":
-        model = AutoModelForCausalLM.from_pretrained(
-            MODEL_NAME,
-            dtype = torch.float16,
-            device_map = "cpu",
-            low_cpu_mem_usage = False,
-        )
-    elif precision == "int8":
-        model = AutoModelForCausalLM.from_pretrained(
-            MODEL_NAME,
-            quantization_config = BitsAndBytesConfig(load_in_8bit = True),
-            device_map = "cpu",
-        )
-    elif precision == "int4":
-        model = AutoModelForCausalLM.from_pretrained(
-            MODEL_NAME,
-            quantization_config = BitsAndBytesConfig(
-                load_in_4bit = True,
-                bnb_4bit_compute_dtype = torch.float16,
-            ),
-            device_map = "cpu",
-        )
-    else:
-        raise ValueError(f"Unknown Precision: {precision}")
-    
-    tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+    paths = {
+        "fp16": "./llama-fp16",
+        "int8": "./llama-int8",
+        "int4": "./llama-int4",
+    }
+    if precision not in paths:
+        raise ValueError(f"Unknown precision: {precision}")
 
+    model, tokenizer = load(paths[precision])
     return model, tokenizer
 
-def runner(model, tokenizer, prompt):    
-    message = [{"role": "user", "content": prompt}]
-    inputs = tokenizer.apply_chat_template(message, add_generation_prompt = True, return_tensors = "pt").to(model.device)
+def runner(model, tokenizer, prompt):
+    messages = [{"role": "user", "content": prompt}]
+    formatted_prompt = tokenizer.apply_chat_template(
+        messages,
+        add_generation_prompt=True,
+    )
 
     start_time = time.time()
-    generated_ids = model.generate(**inputs, max_new_tokens = 200)
+    response = generate(model, tokenizer, prompt=formatted_prompt, max_tokens=200, verbose=False)
     end_time = time.time()
-
     elapsed_time = end_time - start_time
 
-    input_length = inputs["input_ids"].shape[1]
-    decoded_text = tokenizer.decode(generated_ids[0][input_length:], skip_special_tokens = True)
+    return response, elapsed_time
 
-    return decoded_text, elapsed_time
+def measure_memory_usage(precision):
+    mx.reset_peak_memory()
+    
+    model, tokenizer = load_model(precision)
+    
+    mx.eval(model.parameters())
+    
+    memory_used = mx.get_active_memory()
+    
+    return model, tokenizer, memory_used
 
-model, tokenizer = load_model("fp16")
-response, elapsed = runner(model, tokenizer, "What is the capital of France?")
-print(f"Response: {response}")
-print(f"Elapsed: {elapsed:.2f} seconds")
