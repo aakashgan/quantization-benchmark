@@ -15,7 +15,7 @@ def run_benchmark(precisions, questions):
         print(f"Loaded {precision}, memory: {memory_used / (1024**3):.2f} GB")
 
         for question in questions:
-            response, elapsed_time = runner(model, tokenizer, question["question"])
+            response, elapsed_time, num_tokens, tokens_per_second = runner(model, tokenizer, question["question"])
             print(f"  Q{question['id']}: {elapsed_time:.2f}s")
             record = {
                 "precision": precision,
@@ -25,6 +25,8 @@ def run_benchmark(precisions, questions):
                 "expected_answer": question["expected_answer"],
                 "response": response,
                 "elapsed_time": elapsed_time,
+                "num_tokens": num_tokens,
+                "tokens_per_second": tokens_per_second,
                 "memory_used": memory_used
             }
             results.append(record)

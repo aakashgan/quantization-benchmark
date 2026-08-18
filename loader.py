@@ -1,7 +1,6 @@
 from mlx_lm import load, generate, convert
 import mlx.core as mx
 import time
-import psutil
 
 
 def load_model(precision):
@@ -28,7 +27,10 @@ def runner(model, tokenizer, prompt):
     end_time = time.time()
     elapsed_time = end_time - start_time
 
-    return response, elapsed_time
+    num_tokens = len(tokenizer.encode(response))
+    tokens_per_second = num_tokens / elapsed_time
+
+    return response, elapsed_time, num_tokens, tokens_per_second
 
 def measure_memory_usage(precision):
     mx.reset_peak_memory()
